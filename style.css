@@ -1,0 +1,44 @@
+.container{
+text-transform: lowercase;
+height: 100vh;
+color: white;
+h1{color: orange;}
+width: 76.8%;
+text-transform: none;
+
+}
+.header{
+background-color: grey;
+text-align: end;
+margin-bottom: -22px;
+
+
+}
+.section{
+background-color: black;
+padding: 0;
+
+
+}
+.right-side,.left-side{
+list-style-type: none;
+padding: opx;
+}
+/* change li display property from block to flex */
+.right-side li,.left-side li{
+display: flex;
+}
+
+@media only screen and(max-width:375px){
+.container{
+    width: 375px;
+        
+}
+}
+
+
+
+
+
+
+
