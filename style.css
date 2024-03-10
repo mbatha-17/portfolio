@@ -7,6 +7,14 @@ width: 76.8%;
 text-transform: none;
 
 }
+.nav-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+nav-h2{
+justify-self: start;
+}
 .header{
 background-color: grey;
 text-align: end;
