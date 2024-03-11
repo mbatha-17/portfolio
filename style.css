@@ -19,13 +19,33 @@ justify-self: start;
 background-color: grey;
 text-align: end;
 margin-bottom: -22px;
-
+width: 375px;
+height: 92px;
 
 }
 .section{
 background-color: black;
-padding: 0;
+width: 375px;
+height: 590px;
+top: 92px;
+padding: 120px, 24px, 120px, 24px;
+gap: 12px;
 
+}
+.section-h1{
+    font-family: Crete Round;
+font-size: 56px;
+font-weight: 400;
+line-height: 64px;
+letter-spacing: 0.37px;
+text-align: left;
+
+}
+.section-i{
+    width: Hug (40px);
+height: Hug (40px);
+padding: 8px;
+border-radius: 8px;
 
 }
 .right-side,.left-side{
