@@ -1,4 +1,4 @@
-.container{
+/* .container{
 text-transform: lowercase;
 height: 100vh;
 color: white;
@@ -53,15 +53,15 @@ list-style-type: none;
 padding: opx;
 }
 /* change li display property from block to flex */
-.right-side li,.left-side li{
-display: flex;
+/* .right-side li,.left-side li{ */
+/* display: flex; */
 }
 
 /* @media only screen and(max-width:375px){ */
 /* .container{ */
     /* width: 375px; */
 /* /*          */
-    form{
+    /* form{
         width: 76.8%;
         margin: 0px ;
         padding: 0;
@@ -99,4 +99,4 @@ display: flex;
 
 
 
- */
+  */ */
