@@ -57,16 +57,46 @@ padding: opx;
 display: flex;
 }
 
-@media only screen and(max-width:375px){
-.container{
-    width: 375px;
+/* @media only screen and(max-width:375px){ */
+/* .container{ */
+    /* width: 375px; */
+/* /*          */
+    form{
+        width: 76.8%;
+        margin: 0px ;
+        padding: 0;
+        display: block;
+        background-color: aqua;
+        text-transform: uppercase;
         
-}
-}
+    }
+    div{
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+    label{
+        display: block;
+    }
+    button{
+        display: block;
+        align-content:end ;
+    }
+    input, textarea{
+        box-sizing: border-box;
+        border: 2px solid rgb(14, 9, 9);
+    }
+    select{
+        border: 2px solid rgb(14, 9, 9);
+    }
+    button:hover{
+        cursor: pointer;
+        color: blue;
+    }
 
 
 
 
 
 
-
+ */
