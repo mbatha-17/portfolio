@@ -163,6 +163,190 @@ img{
 
 
 }
+.main{
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
 
+h3{
+    background-color: white;
+    font-family: crete round;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 52px;
+    border-bottom: 1px solid black;
+    gap: 24px;
+}
+img{
+    display: block;
+    top: 0;
+    left: 0;
+    height: 237px;
+}
+.main p{
+    color: black;
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    text-decoration: none;
+    
+}
+.list ul li{
+    font: inter;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 1px solid #8993A4;
+    padding: 10px 12px 10px 12px;
+}
+button{
+    background-color:#FF6B00;
+    font: inter;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 3%;
+    gap: 10px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    margin: 20px;
+}
+.cover-container{
+    width: 100%;
+    height: 386px;
+    background-image: url(Img\ Placeholder2.png);
+    background-size: cover;
+    background-position: center;
+}
+.cover-container h5{
+    color: #ffffff;
+    height: 81px;
+    width: 295px;
+    font-family: Crete Round;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    padding-top: 40px;
+}
+.cover-container p{
+    height: 99px;
+    width: 100%;
+    color: #ffffff;
+    font: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.button .item1{
+    background: #FFFFFF3D;
+    ;
+}
+h6{
+    color: #ffffff;
+    box-sizing: border-box;
+    background: #FF6B00;
+    height: 48px;
+    width: 100%;
+    left: 101.5px;
+    padding: 12px;
+    gap: 10px;
+    text-align: center;
+    font: inter;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    margin-bottom: 40px;
+}
+.about h2{
+   padding: 10px; 
+   color: #FF6B00;
+   font: Crete Round;
+   font-weight: 400;
+   font-size: 72px;
+   line-height: 88px;
+   letter-spacing: 0.37px;
+}
+.about p{
+    font: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.about button{
+    width: 156px;
+    height: 48px;
+    padding: 12px;
+    gap: 10px;
+}
+.about img{
+    width: 492.63px;
+    height: 258.17px;
+    top: 0.35px;
+    left: 492.97px;
+    border-bottom: 2px solid grey;
+    padding-bottom: 30px;
+    display: block;
+    margin-bottom: 30px;
+}
+.tree{
+    display: grid;
+    align-items: flex-start;
+    color: #ffffff;
+    width: Hug (329px);
+    height: Hug (1,103.46px);
+    top: 4797px;
+    left: 23px;
+    padding: 120px 24px 38px 24px;
+    gap: 24px;
 
+}
+.tree li ul li{
+    list-style: none;
+}
+.text{
+    background-color: #ffffff;
+    width: 100%;
+    height: 216px;
+}
+.text p{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: center;
+    color: black;
+}
+form{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: Hug (327px);
+    height: Hug (330px);
+    gap: 24px;
 
+}
+
+form button{
+    width: 131px;
+    height: 48px;
+    padding: 12px;
+    gap: 10px;
+    align-items: center;
+}
+.bottom{
+   background-color: #ffffff;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-top: 1px solid #DFE1E6;
+}
+.bottom i{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 8px;
+}
