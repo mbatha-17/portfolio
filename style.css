@@ -384,10 +384,14 @@ form button{
     margin-left: 38%;
     border: white;
 }
+form button:hover{
+    background-color: blue;
+    transition: 0.8s ease;
+}
 .bottom{
    background-color: #ffffff;
    display: flex;
-   justify-content: space-between;
+   
    align-items: center;
    border-top: 1px solid #DFE1E6;
 }
@@ -395,5 +399,7 @@ form button{
     width: 40px;
     height: 40px;
     border-radius: 8px;
-    padding: 8px;
+    padding: 8px; 
+    align-items: center;
+    margin-left: 50px;
 }
