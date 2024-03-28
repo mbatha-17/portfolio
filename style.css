@@ -155,7 +155,6 @@ p{
 }
 img{
    background: url(Illustration\ image.png);
-   float: right;
    width: 406.89px;
    height: 312.03px;
    top: 317px;
@@ -181,10 +180,9 @@ h3{
 hr{
     margin-top: 30px;
 }
-img{
+#png{
     display: block;
-    top: 0;
-    left: 0;
+    margin: 0 auto;
     height: 237px;
     margin-top: 70px;
     margin-bottom: 30px;
@@ -315,7 +313,7 @@ h6{
     display: block;
     margin-bottom: 30px;
 }
-.tree{
+.container ul{
     display: grid;
     align-content: center;
     color: #ffffff;
@@ -327,18 +325,29 @@ h6{
     gap: 24px;
 
 }
-ul.tree li.sub{
+.container .title{
     text-align: center;
     font-family: Inter;
     font-weight: 700;
     font-size: 32px;
     line-height: 44px;
+    list-style: none;
 }
-.tree li ul li{
+.container ul li{
     list-style: none;
     text-align: center;
     padding: 0px 12px 0px 12px;
     gap: 8px;
+}
+.container .title #icon{
+    display: inline-block;
+    vertical-align: middle;
+}
+#icon{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
 }
 .text{
     background-color: #ffffff;
@@ -369,6 +378,11 @@ form button{
     padding: 12px;
     gap: 10px;
     align-items: center;
+    background: #FF6B00;
+    color: #ffffff;
+    margin-bottom: 50px;
+    margin-left: 38%;
+    border: white;
 }
 .bottom{
    background-color: #ffffff;
