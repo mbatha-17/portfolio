@@ -391,7 +391,6 @@ form button:hover{
 .bottom{
    background-color: #ffffff;
    display: flex;
-   
    align-items: center;
    border-top: 1px solid #DFE1E6;
 }
