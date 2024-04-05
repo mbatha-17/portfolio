@@ -420,6 +420,13 @@ form button:hover{
     margin-left: 50px;
 }
 @media(min-width:768px){
+    nav a:hover{
+        background-color: chartreuse;
+        color: black;
+        font-size: large;
+        font-weight: 800;
+        animation: 3s ease-in-out;
+    }
     .section{
         display: flex;
     }
@@ -432,6 +439,14 @@ form button:hover{
         float: left;
         padding: 0 40px;
         margin-top: 50px;
+    }
+    #png:hover{
+        transform: scale(0.5);
+    }
+    .btn:hover{
+        background-color: #ffffff;
+        color: #3E3C3C;
+        rotate: 180deg;
     }
 .flex-container{
     display: grid;
@@ -458,5 +473,14 @@ form button:hover{
 .bottom{
     display: flex;
     justify-content: center;
+}
+.cover-container h6:hover{
+    background-color: blue;
+    color: #ffffff;
+    transition: 3s ease;
+}
+.myself h1:hover{
+    color: blue;
+    transform: translateX(50%);
 }
 }
