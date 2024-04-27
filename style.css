@@ -294,13 +294,58 @@ h6{
     font-size: 16px;
     line-height: 24px;
 }
-.btn{
+button{
     width: 156px;
     height: 48px;
     background-color: #FF6B00;
     padding: 12px;
     gap: 10px;
 }
+  
+  .modal{
+    background: white;
+    width: 70%;
+    padding: 30px;
+    border-radius: 6px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    animation: 1s drop;
+    border: 1px solid;
+    display: none;
+  }
+  .openModal{
+    display: block;
+  }
+  .X{
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    font-size: 40px;
+    cursor: pointer;
+  }
+  ul.technologies{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  ul.technologies li{
+    border: 1px solid;
+    padding: 6px;
+    background: gray;
+    color: white;
+  }
+  .more{
+    width: 100%;
+    border: none;
+    color: white;
+    font-weight: 600;
+  }
+  
+
 .about img{
     width: 492.63px;
     height: 258.17px;
