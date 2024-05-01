@@ -53,7 +53,34 @@
       <li>Ruby</li>
     </ul>
    </div>
-   <button class="btn">See Project</button>
+
+
+   <button onclick="openModal()">See Project</button>
+    <div class="modalParent">
+        <div class="modal">
+            <span class="X" onclick="closeModal()">&times;</span>
+            <br>
+            <h2 id="sub">Keeping track of hundreds of components website</h2>
+            <ul class="technologies">
+              <li>HTML</li>
+              <li>Bootstrap</li>
+              <li>Ruby on rails</li>
+            </ul>
+            <div class="container">
+              <div class="row">
+                  <div class="column-6">
+                    <img id="popupImg" src="images/Snapshoot Portfolio.jpg">
+                  </div>
+                  <div class="column-6">
+                    <p class="see">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s.<br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releax map lapora verita.</p>
+                    <button class="live">See live<img src="images/Icon - see live.png"></button> 
+                    <button class="source">See source<img src="images/Frame.png"></button>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+   </div>
   <div class="flex-container">
    <div class="cover-container">
     <h5>Profesional Art<br> Printing Data</h5>
@@ -184,5 +211,6 @@
           <i class="fa-brands fa-linkedin"></i>
           <i class="fa-brands fa-angellist"></i>
        </div>
+ <script src="script.js"></script>
  </body>
  </html>
